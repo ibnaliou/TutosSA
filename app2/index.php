@@ -41,6 +41,7 @@
             echo '<h3>La taille doit être entre 1-29</h3>';
         }else if(empty($_POST['c1'])){
             echo '<h3>Veuillez selectionner la couleur 1</h3>';
+            echo '<h3>Veuillez selectionner la couleur 1</h3>';
         }else if(empty($_POST['c2'])){
             echo '<h3>Veuillez selectionner la couleur 2/h3>';
         }else if(empty($_POST['c3'])){
