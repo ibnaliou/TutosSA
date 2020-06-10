@@ -1,0 +1,10 @@
+body{
+    padding: 20px;
+}
+[class*=col-] {
+    background-color: aquamarine;
+    border: solid 2px black;
+    border-radius: 10px;
+    line-height: 50px;
+    text-align: center;
+}

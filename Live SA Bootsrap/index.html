@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/style.css">
+<title>Title</title>
+
+</head>
+
+<body>
+    
+<div class="container">
+
+    <!-- un premier exemple sur un petit ecran expliquer mais ne pas aller sur navigateur -->
+ <div class="row">
+    <div class="col-xs-4" > Larg 4 </div>
+    <div class="col-xs-8" > Larg 8 </div>
+
+</div>
+<!-- effacer le premier et remplacer sur tablet -->
+<div class="row">
+   <div class="col-md-1" > Larg 1 </div>
+   <div class="col-md-3" > Larg 3 </div>
+   <div class="col-md-3" > Larg 3 </div>
+   
+   <div class="col-xs-4 col-md-3" > Larg 3 </div>
+   <div class="col-md-3" > Larg 3 </div>
+   <div class="col-md-3" > Larg 3 </div>
+   <div class="col-md-3" > Larg 3 </div>
+</div>
+<!-- sur grand ecran aller tester sur  -->
+<div class="row">
+   <div class="col-lg-4">Largeur 4</div>
+   <div class="col-lg-4">Largeur 4</div>
+   <div class="col-lg-4">Largeur 4</div>
+   <div class="col-lg-4">Largeur 4</div>
+ </div>
+
+ <!-- essayer davoir que  ceci c'est plus jolie -->
+ <p>un exemple </p>
+    <div class="row">
+        <div class="col-lg-1">1 col</div>
+        <div class="col-lg-2">2 colonnes</div>
+        <div class="col-lg-3">3 colonnes</div>
+        <div class="col-lg-6">6 colonnes</div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">12 colonnes</div>
+    </div>
+    <div class="row">
+        <div class="col-lg-4">4 colonnes</div>
+        <div class="col-lg-8">8 colonnes</div>
+    </div>
+
+
+  <!--  essayer d sauter des collone classe mx-auto
+     (prend les pile qui reste et l'ajoute depart et d'aure de la collone) 
+     sur b3 vous verrai offset copie dernier row et tester -->
+     <p> saut de collone </p>
+<div class="row">
+    <div class=" mx-auto col-md-2    ">2 colonnes</div>
+    <div class="col-md-2  ">2 colonnes</div>
+    <div class="  col-md-4 ">4 colonnes</div>
+
+</div>
+
+<!-- Variier les width (on avait montreé que par defaut boostrap varie la longeur des cellules )
+   avec le contenu -auto à la place des chiffres faire 2/3 puis auto   --> 
+   <p>varier les width</p>
+<div class="row">
+    <div class="col-lg-2"> 1/  3   </div>
+    <div class="col-lg-auto"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, exercitationem? Eum nam sit beatae nihil, accusantium illo dicta ullam recusandae porro, officia facilis, blanditiis natus voluptatem? Aliquam nisi fuga corporis.   </div>
+    <div class="col-lg-2"> 3/ 3   </div>     
+ 
+</div>
+
+
+<!-- Creer un retour à la ligne des block qvec div.w-100 montrr dabord les 3 div apres ajouter le 4 -->
+<p>retour à la lige des block </p>
+<div class="row">
+  <div class="col-md-4">1/3</div>
+  <div class="col-md-4">1/3</div>
+  <div class="w-100"></div>
+  <div class="col-md-4">1/3</div>
+  <div class="col-md-4">1/3</div>
+
+</div>
+
+<!-- Reordonner les block  order-nombre ou order-last order-first-->
+<p>Reorder block</p>
+
+      <div class="row">
+        <div class="col-md-4 order-2">premier</div>
+        <div class="col-md-4 order-12">2 em, mais sera le dernier</div>
+        <div class="col-md-4 order-1">3 em mais sera premier </div>
+      </div>
+
+      <!--  vous pouvez voir les class justify-content  align-items-start ,center , end  offset qui permet de  -->
+      <p> nE PAS FAIRE Aligner le contenu </p>
+      <div class="row align-items-start">
+        <div class="col-md-4 order-2">premier</div>
+        <div class="col-md-4 order-12">2 em, mais sera le dernier</div>
+        <div class="col-md-4 order-1">3 em mais sera premier </div>
+      </div>
+
+<!-- fgg -->
+<header class="row">
+    <div class="col-lg-12">
+      Entete
+    </div>
+  </header>
+  <div class="row">
+    <nav class="col-sm-2">
+      Menu
+    </nav>
+    <section class="col-sm-10">
+      Section
+      <div class="row">
+        <div class="col-sm-10">
+          <div class="row">
+            <article class="col-sm-6">
+              Article
+            </article>
+            <article class="col-sm-6">
+              Article
+            </article>
+            <article class="col-sm-6">
+              Article
+            </article>
+            <article class="col-sm-6">
+              Article
+            </article>
+            <article class="col-sm-6">
+              Article
+            </article>
+            <article class="col-sm-6">
+              Article
+            </article>
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <div class="row">
+            <aside class="col-sm-12">
+              Aside 1
+            </aside>
+            <aside class="col-sm-12">
+              Aside 2
+            </aside>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class=" col-sm-10">
+      Section
+      <div class="row">
+        <article class="col-sm-6">
+          Article
+        </article>
+        <article class="col-sm-6">
+          Article
+        </article>
+        <article class="col-sm-6">
+          Article
+        </article>
+        <article class="col-sm-6">
+          Article
+        </article>
+        <article class="col-sm-6">
+          Article
+        </article>
+        <article class="col-sm-6">
+          Article
+        </article>
+      </div>
+    </section>
+  </div>
+  <footer class="row">
+    <div class="col-lg-12">
+      Pied de page
+    </div>
+  </footer>
+ 
+  
+
+
+
+
+ <!--container--> </div> 
+
+  <!-- Rien n'interdit évidemment de 
+    mélanger des classes des 3 catégories pour créer des effets particuliers avec
+     certains éléments qui doivent s'empiler et d'autre pas (c'est même la stratégie utilisée pour la mise en page "responsive" 
+    comme nous allons bientôt le voir)… -->
+
+<!-- pour que l'on puisse bien visualiser on va mettre du css -->
+
+<!-- [class*=col-] {
+    background-color: aquamarine;
+    border: solid 2px black;
+    border-radius: 10px;
+    line-height: 50px;
+    text-align: center;
+} -->
+<!--La grille de Bootstrap doit être placée dans un conteneur. 
+    Bootstrap propose  les classes container et container-fluid 
+
+     La classe container contient et centre la grille sur une largeur fixe, 
+     qui s'adapte en fonction de la largeur de l'écran
+
+     La classe container-fluid permet à la grille d'occuper toute la largeur
+     on va portez ici le choix sur container (div.container)
+on selectionne le tout et on le met dans un container (faire le test aussi sur fluid) 
+
+-->
+
+<!-- On peut ajouter autant d col etvde roow que l'on veut -->
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
