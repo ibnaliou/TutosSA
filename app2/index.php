@@ -6,7 +6,7 @@
     ];
     $affiche = false;
 
-    function creerMatrice($n, $c1, $c2, $c3, $pos){
+    function creeerMattestrice($n, $c1, $c2, $c3, $pos){
         echo '<table>';
         for($i=0; $i<$n; $i++){
             echo '<tr>';
