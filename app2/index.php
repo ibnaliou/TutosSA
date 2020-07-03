@@ -6,7 +6,8 @@
     ];
     $affiche = false;
 
-    function creeerMattestrice($n, $c1, $c2, $c3, $pos){
+
+    function creeeraABBAA($n, $c1, $c2, $c3, $pos){
         echo '<table>';
         for($i=0; $i<$n; $i++){
             echo '<tr>';
