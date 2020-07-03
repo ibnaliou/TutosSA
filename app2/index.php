@@ -2,7 +2,7 @@
     $couleurs = [
         ['code' => '#ff0000', 'nom' => 'Rouge'],
         ['code' => '#0000ff', 'nom' => 'Bleu'],
-        ['code' => '#ffe000', 'nom' => 'Jaune'],
+        ['code' => '#ffxvvvxe000', 'nom' => 'Jaune'],
     ];
     $affiche = false;
 
